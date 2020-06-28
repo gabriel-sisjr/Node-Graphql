@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 function startServer({ typeDefs, resolvers }) {
   mongoose.connect(
-    "mongodb+srv://gab:123@cluster0-jtloq.mongodb.net/SDDB?retryWrites=true&w=majority",
+    "URL de Conexão com mongo aqui.",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
